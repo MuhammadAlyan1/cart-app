@@ -1,0 +1,40 @@
+/* 
+==============
+navbar
+==============
+*/
+
+.navbar {
+  color: white;
+  background-color: var(--clr-remove-btn);
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar .nav-title {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.navbar .nav-icon {
+  font-size: 2rem;
+  margin: 0px;
+  position: relative;
+}
+
+.navbar .cartItemsAmount {
+  font-size: 1.2rem;
+  background-color: var(--clr-item-amount-background);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  border-radius: 50%;
+}
