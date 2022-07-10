@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/cart-app/static/css/main.1d2c4616.css",
-    "main.js": "/cart-app/static/js/main.43199e6c.js",
+    "main.js": "/cart-app/static/js/main.5ef42c75.js",
+    "static/media/oneplus.png": "/cart-app/static/media/oneplus.62229510a6dd5405eb73.png",
+    "static/media/samsung.png": "/cart-app/static/media/samsung.4a7c8dd0e26ad9bf3eb1.png",
+    "static/media/google-pixle.jpg": "/cart-app/static/media/google-pixle.394b8e9251bbe404c063.jpg",
+    "static/media/iphone.jpg": "/cart-app/static/media/iphone.d7ca67cc071918a7ba79.jpg",
     "index.html": "/cart-app/index.html",
     "main.1d2c4616.css.map": "/cart-app/static/css/main.1d2c4616.css.map",
-    "main.43199e6c.js.map": "/cart-app/static/js/main.43199e6c.js.map"
+    "main.5ef42c75.js.map": "/cart-app/static/js/main.5ef42c75.js.map"
   },
   "entrypoints": [
     "static/css/main.1d2c4616.css",
-    "static/js/main.43199e6c.js"
+    "static/js/main.5ef42c75.js"
   ]
 }
