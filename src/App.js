@@ -1,11 +1,12 @@
-import { useReducer, createContext } from "react";
-import { CartElements } from "./CartElements";
-import { data } from "./data.js";
-import { Navbar } from "./Navbar";
-import { reducer } from "./reducer.js";
+import { useReducer, createContext } from 'react';
+import Cart from './components/cart/index';
+import { data } from './data.js';
+import Navbar from './components/navbar/index';
+import { reducer } from './reducer.js';
+import { createStore } from 'redux';
 
 // css
-import "./App.css";
+import './App.css';
 
 export const cartContext = createContext(null);
 
@@ -26,7 +27,7 @@ function App() {
     <div>
       <cartContext.Provider value={{ dispatch, state }}>
         <Navbar />
-        <CartElements />
+        <Cart />
       </cartContext.Provider>
     </div>
   );
