@@ -2,7 +2,7 @@ export function reducer(state, action) {
   const { type, payload } = action;
 
   switch (type) {
-    case "REMOVE_ITEM":
+    case 'REMOVE_ITEM':
       let removedItemPrice = 0;
       return {
         ...state,
@@ -20,21 +20,21 @@ export function reducer(state, action) {
         numberOfItemsInCart: state.numberOfItemsInCart - payload.cartItemAmount,
       };
 
-    case "DECREMENT_ITEM":
+    case 'DECREMENT_ITEM':
       return {
         ...state,
         numberOfItemsInCart: state.numberOfItemsInCart - 1,
         cartTotal: state.cartTotal - payload,
       };
 
-    case "INCREMENT_ITEM":
+    case 'INCREMENT_ITEM':
       return {
         ...state,
         numberOfItemsInCart: state.numberOfItemsInCart + 1,
         cartTotal: state.cartTotal + payload,
       };
 
-    case "CLEAR_CART":
+    case 'CLEAR_CART':
       return {
         ...state,
         numberOfItemsInCart: 0,
